@@ -1,5 +1,5 @@
 {
-  "name": "excerpt-html",
+  "name": "@frat/excerpt-html",
   "version": "1.2.0",
   "description": "Get the Excerpt from a markdown file (like in jekyll or *smith)",
   "main": "index.js",
@@ -26,12 +26,8 @@
     "standard": "^12.0.1",
     "tap": "^12.1.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/martinheidegger/excerpt-html.git"
-  },
-  "bugs": {
-    "url": "https://github.com/martinheidegger/excerpt-html/issues"
-  },
-  "homepage": "https://github.com/martinheidegger/excerpt-html"
+  "repository": "ratson/excerpt-html",
+  "publishConfig": {
+    "access": "public"
+  }
 }
